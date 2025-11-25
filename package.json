@@ -1,0 +1,25 @@
+{
+  "name": "vscode-extensions-workspace",
+  "version": "1.0.0",
+  "description": "Enhanced VS Code extensions management workspace",
+  "scripts": {
+    "setup": "node scripts/setup-dev.js",
+    "analytics": "node scripts/extension-analytics.js",
+    "backup:extensions": "node scripts/extension-manager.js backup",
+    "restore:extensions": "node scripts/extension-manager.js restore",
+    "scan:extensions": "node scripts/extension-manager.js scan",
+    "docs": "node scripts/generate-docs.js"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.0.0"
+  },
+  "keywords": [
+    "vscode",
+    "extensions",
+    "workspace",
+    "development"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
